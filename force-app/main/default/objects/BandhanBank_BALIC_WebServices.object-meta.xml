@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>ListCustomSetting</customSettingsType>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>A custom object for storing data related to Bandhan Bank and BALIC web services.</description>
+    <enableActivities>false</enableActivities>
+    <fields>
+        <fullName>Name</fullName>
+        <externalId>true</externalId>
+        <label>Name</label>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>CustomerDemographicData</fullName>
+        <label>Customer Demographic Data</label>
+        <required>true</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>CRIFScore</fullName>
+        <label>CRIF Score</label>
+        <required>true</required>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>HLVPASAData</fullName>
+        <label>HLV/PASA Data</label>
+        <required>true</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>DirectDebitAPI</fullName>
+        <label>Direct Debit API</label>
+        <required>true</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>COIDownloadAPI</fullName>
+        <label>COI Download API</label>
+        <required>true</required>
+        <type>TextArea</type>
+    </fields>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>CUSTOMERDEMOGRAPHICDATA</columns>
+        <columns>CRIFSCORE</columns>
+        <columns>HLVPASADATA</columns>
+        <columns>DIRECTDEBITAPI</columns>
+        <columns>COIDOWNLOADAPI</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <pageLayouts>
+        <fullName>Bandhan_Bank_and_BALIC_Web_Services</fullName>
+        <available>true</available>
+        <label>Bandhan Bank and BALIC Web Services</label>
+    </pageLayouts>
+    <tabs>
+        <visibility>DefaultOn</visibility>
+    </tabs>
+</CustomObject>
